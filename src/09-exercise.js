@@ -1,5 +1,6 @@
 /**
- * Write a function that uses a for loop to console.log its arguments
+ * Write a function that uses a 'for' loop to console.log
+ * each of its arguments.
  *
  * NOTE:
  * 'arguments' is a special property of JavaScript functions that
