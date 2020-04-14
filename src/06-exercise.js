@@ -7,15 +7,7 @@
  */
 
 // Complete the code to this function
-function exercise06() {
-    let nums = getNums();
-
-    for (let i = 0; i < nums.length; i++) {
-        nums[i] = nums[i] * 2;
-    }
-
-    return nums;
-}
+function exercise06() {}
 
 // Don’t change the code bellow this line
 function getNums() {

@@ -5,9 +5,7 @@
  */
 
 // Complete the code to this function
-function exercise04() {
-    return getSum();
-}
+function exercise04() {}
 
 // Don’t change the code bellow this line
 function getSum() {

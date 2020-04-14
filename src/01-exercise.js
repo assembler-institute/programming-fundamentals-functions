@@ -9,11 +9,6 @@
  */
 
 // Complete the code to the function
-function exercise01(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        arr[i] = arr[i] * 2;
-    }
-    return arr;
-}
+function exercise01() {}
 
 module.exports = exercise01;

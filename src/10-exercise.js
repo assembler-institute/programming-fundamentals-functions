@@ -18,7 +18,6 @@ var globalVar = 'hello-world';
 
 function exercise10Global() {
     // Write the first console.log bellow this line
-    console.log(globalVar);
 }
 
 function exercise10Inner() {
@@ -26,7 +25,6 @@ function exercise10Inner() {
     var globalVar = 'hola-mundo';
 
     // Write the second console.log bellow this line
-    console.log(globalVar);
 }
 
 module.exports = {

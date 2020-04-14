@@ -10,16 +10,6 @@
 // Complete the code to the function
 function exercise11() {
     let nums = [1, 2, 3, 6, 7, 11, 2, 12];
-
-    let total = 0;
-
-    nums.forEach((n) => {
-        if (n % 2 > 0) {
-            total += n;
-        }
-    });
-
-    return total;
 }
 
 module.exports = exercise11;

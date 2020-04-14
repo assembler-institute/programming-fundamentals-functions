@@ -25,9 +25,6 @@
  */
 function exercise09() {
     // Write your code bellow this line
-    for (let i = 0; i < arguments.length; i++) {
-        console.log(arguments[i]);
-    }
 }
 
 module.exports = exercise09;

@@ -7,12 +7,6 @@
  */
 
 // Complete the code to the function
-function exercise03(a, b) {
-    if (a !== undefined && b !== undefined) {
-        return a * b;
-    } else if (a !== undefined && b === undefined) {
-        return a * a;
-    }
-}
+function exercise03() {}
 
 module.exports = exercise03;

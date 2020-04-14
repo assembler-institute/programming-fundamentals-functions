@@ -8,14 +8,6 @@
  */
 
 // Complete the code to the function
-function exercise07(a, b) {
-    if (a === undefined && b === undefined) {
-        return 'error';
-    } else if (a !== undefined && b === undefined) {
-        return 'missing b parameter';
-    } else if (a !== undefined && b !== undefined) {
-        return a + b;
-    }
-}
+function exercise07() {}
 
 module.exports = exercise07;

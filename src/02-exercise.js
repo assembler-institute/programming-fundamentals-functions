@@ -8,8 +8,6 @@
  */
 
 // Complete the code to the function
-function exercise02(a, b, c) {
-    return a + b + c;
-}
+function exercise02() {}
 
 module.exports = exercise02;

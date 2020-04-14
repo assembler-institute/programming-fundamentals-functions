@@ -10,11 +10,10 @@
  * NOTE:
  * You will need to add the parameter to the exercise08() function
  */
-function exercise08(callback) {
+function exercise08() {
     let nums = [1, 2, 3, 4, 5];
 
     // Write your code bellow this line
-    nums.forEach(callback);
 }
 
 module.exports = exercise08;

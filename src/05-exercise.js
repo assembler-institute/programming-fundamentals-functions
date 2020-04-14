@@ -7,9 +7,7 @@
  */
 
 // Complete the code to this function
-function exercise05() {
-    return getMul() + getSum();
-}
+function exercise05() {}
 
 // Don’t change the code bellow this line
 function getSum() {
