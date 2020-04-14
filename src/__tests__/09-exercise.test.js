@@ -1,21 +1,11 @@
 const exercise09 = require('../09-exercise');
 
 describe('09-exercise', () => {
-    let logSpy = jest.spyOn(console, 'log');
+    test("use a for loop to store in the 'args' array the arguments of the function", () => {
+        let args1 = exercise09('hello', 'world');
+        let args2 = exercise09(20, 'test-str');
 
-    afterAll(() => {
-        logSpy.mockRestore();
-    });
-
-    test('use a for loop to console.log the arguments of the function', () => {
-        exercise09('hello', 'world');
-
-        expect(logSpy).toBeCalledWith('hello');
-        expect(logSpy).toBeCalledWith('world');
-
-        exercise09(20, 'test-str');
-
-        expect(logSpy).toBeCalledWith(20);
-        expect(logSpy).toBeCalledWith('test-str');
+        expect(args1).toMatchObject(['hello', 'world']);
+        expect(args2).toMatchObject([20, 'test-str']);
     });
 });

@@ -1,6 +1,8 @@
 /**
- * Complete the function to use a 'for' loop to console.log
- * each of the arguments of the function.
+ * Complete the function to use a 'for' loop to store
+ * in the 'args' array each of the arguments of the function.
+ *
+ * You can use the `.push()` method of arrays.
  *
  * NOTE:
  * 'arguments' is a special property of JavaScript functions that
@@ -24,10 +26,15 @@
  * }
  */
 function exercise09() {
+    let args = [];
+
     // Write your code bellow this line
     for (let i = 0; i < arguments.length; i++) {
-        console.log(arguments[i]);
+        args.push(arguments[i]);
     }
+
+    // Don’t change the code bellow this line
+    return args;
 }
 
 module.exports = exercise09;
