@@ -1,6 +1,6 @@
 /**
- * Write a function that uses a 'for' loop to console.log
- * each of its arguments.
+ * Complete the function to use a 'for' loop to console.log
+ * each of the arguments of the function.
  *
  * NOTE:
  * 'arguments' is a special property of JavaScript functions that
@@ -25,6 +25,9 @@
  */
 function exercise09() {
     // Write your code bellow this line
+    for (let i = 0; i < arguments.length; i++) {
+        console.log(arguments[i]);
+    }
 }
 
 module.exports = exercise09;

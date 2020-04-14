@@ -1,13 +1,21 @@
 /**
- * Write a function that:
+ * Complete the function bellow to:
  *
- * 1. gets an array of numbers by calling the getNums() function
- * 2. multiplies all the items in the array by 2
- * 3. returns the array.
+ * 1. receive an array of numbers by calling the getNums() function
+ * 2. multiply all the items in the array by 2
+ * 3. return the array.
  */
 
-// Write your code bellow this line
-function exercise06() {}
+// Complete the code to this function
+function exercise06() {
+    let nums = getNums();
+
+    for (let i = 0; i < nums.length; i++) {
+        nums[i] = nums[i] * 2;
+    }
+
+    return nums;
+}
 
 // Don’t change the code bellow this line
 function getNums() {

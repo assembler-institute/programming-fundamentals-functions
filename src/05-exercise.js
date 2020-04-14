@@ -1,15 +1,15 @@
 /**
- * Write a function that returns:
- *
- * The result of:
+ * Complete the function bellow to return the result of:
  *
  * calling the getSum() function
  * added to the result of
  * calling the getMul() function
  */
 
-// Write your code bellow this line
-function exercise05() {}
+// Complete the code to this function
+function exercise05() {
+    return getMul() + getSum();
+}
 
 // Don’t change the code bellow this line
 function getSum() {

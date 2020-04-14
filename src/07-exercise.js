@@ -1,12 +1,21 @@
 /**
- * Write a function that:
+ * Complete the function bellow to:
  *
- * 1. returns "error" when the 'a' and 'b' parameters are undefined
- * 2. returns "missing b parameter" when 'b' is undefined but not 'a'
- * 3. returns a + b when 'a' and 'b' are not undefined
+ * 1. receive 2 number parameters named 'a' and 'b'
+ * 2. return 'error' when the 'a' and 'b' parameters are undefined
+ * 3. return 'missing b parameter' when 'b' is undefined but not 'a'
+ * 4. return 'a' + 'b' when 'a' and 'b' are not undefined
  */
+
+// Complete the code to the function
 function exercise07(a, b) {
-    // Write your code bellow this line
+    if (a === undefined && b === undefined) {
+        return 'error';
+    } else if (a !== undefined && b === undefined) {
+        return 'missing b parameter';
+    } else if (a !== undefined && b !== undefined) {
+        return a + b;
+    }
 }
 
 module.exports = exercise07;

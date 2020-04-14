@@ -1,13 +1,15 @@
 /**
- * Write a function that:
+ * Complete the function bellow to:
  *
- * 1. receives 3 number parameters
- * 2. returns their sum
+ * 1. receive 3 number parameters
+ * 2. return their sum
  *
  * NOTE: You will have to add the parameters to the function
  */
 
-// Write your code bellow this line
-function exercise02() {}
+// Complete the code to the function
+function exercise02(a, b, c) {
+    return a + b + c;
+}
 
 module.exports = exercise02;

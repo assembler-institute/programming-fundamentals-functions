@@ -1,11 +1,18 @@
 /**
- * Write a function that:
+ * Complete the function bellow to:
  *
- * 1. returns the globalVariable without changing its value
+ * 1. receive 2 number parameters named 'a' and 'b'
+ * 2. return 'a' * 'b' when 'a' and 'b' are not undefined
+ * 3. return 'a' * 'a' when 'b' is undefined
  */
-let globalVariable = 'this-is-a-global-variable';
 
-// Write your code bellow this line
-function exercise03() {}
+// Complete the code to the function
+function exercise03(a, b) {
+    if (a !== undefined && b !== undefined) {
+        return a * b;
+    } else if (a !== undefined && b === undefined) {
+        return a * a;
+    }
+}
 
 module.exports = exercise03;

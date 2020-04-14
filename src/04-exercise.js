@@ -1,11 +1,13 @@
 /**
- * Write a function that:
+ * Complete the function bellow to:
  *
- * 1. returns the result of calling the getSum function
+ * 1. return the result of calling the getSum function
  */
 
-// Write your code bellow this line
-function exercise04() {}
+// Complete the code to this function
+function exercise04() {
+    return getSum();
+}
 
 // Don’t change the code bellow this line
 function getSum() {

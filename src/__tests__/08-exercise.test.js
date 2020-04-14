@@ -1,7 +1,7 @@
 const exercise08 = require('../08-exercise');
 
 describe('08-exercise', () => {
-    test('execute the "callback" function with each of the elements in the array as a parameter', () => {
+    test('execute the "callback" parameter function with each of the elements in the array', () => {
         let cb = jest.fn();
 
         exercise08(cb);

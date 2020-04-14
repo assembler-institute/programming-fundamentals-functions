@@ -1,14 +1,19 @@
 /**
- * Write a function that:
+ * Complete the function bellow to:
  *
- * 1. receives an array as a parameter named 'arr'
- * 2. multiplies all the items in the array by 2
- * 3. returns the array.
+ * 1. receive an array of numbers as a parameter
+ * 2. multiply each items in the array by 2
+ * 3. return the array.
  *
  * NOTE: You will have to add the parameters to the function
  */
 
-// Write your code bellow this line
-function exercise01() {}
+// Complete the code to the function
+function exercise01(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i] * 2;
+    }
+    return arr;
+}
 
 module.exports = exercise01;

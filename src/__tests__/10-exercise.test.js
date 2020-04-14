@@ -7,7 +7,7 @@ describe('10-exercise', () => {
         logSpy.mockRestore();
     });
 
-    test('use console.log inside and outside the function', () => {
+    test('use console.log to see how scope works', () => {
         exercise10Global();
         expect(logSpy).toHaveBeenCalledWith('hello-world');
 
