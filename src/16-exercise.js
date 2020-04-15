@@ -1,65 +1,61 @@
 /**
- * It's a Pokemon battle!
+ * Let’s play Rock, Paper, Scissors!
  *
- * Your task is to calculate the damage that a particular move would do
- * using the following formula (not the actual one from the game):
+ * Rules:
  *
- * damage = 50 * (attack / defense) * effectiveness
+ * 1. Rock wins against scissors.
+ * 2. Scissors win against paper.
+ * 3. Paper wins against rock.
+ * 4. If both user choose the same, play again.
  *
- * Where:
+ * If the user wins:
+ * return: "User wins!" // the variable 'userWins'
  *
- * attack = your attack power
- * defense = the opponent's defense
- * effectiveness = the effectiveness of the attack based on the matchup
- * (see explanation below)
+ * If the computer wins:
+ * return: "Computer wins!" // the variable 'computerWins'
  *
- * Effectiveness:
+ * If you both have the same option:
+ * return: "Play again!" // the variable 'sameChoice'
  *
- * Attacks can be super effective, neutral,
- * or not very effective depending on the matchup.
- *
- * For example, water would be super effective against fire,
- * but not very effective against grass.
- *
- * Super effective: 2x damage
- * Neutral: 1x damage
- * Not very effective: 0.5x damage
- *
- * You'll only be dealing with four types:
- * fire, water, grass, and electric.
- *
- * Here is the effectiveness of each matchup:
- *
- * fire > grass
- * fire < water
- * fire = electric
- *
- * water < grass
- * water < electric
- * grass = electric
- *
- * For this kata, any type against itself is not very effective.
- * Also, assume that the relationships between different types
- * are symmetric.
- *
- * (
- *  if A is super effective against B,
- *  then B is not very effective against A
- * )
- *
- * The function you must implement takes in:
- *
- * your type
- * the opponent's type
- * your attack power
- * the opponent's defense
+ * The `rockPaperScissors()` function receives 2 parameters
+ * `userChoice` and `computerChoice`
+ * that you can provide to try the function.
  */
+function rockPaperScissors(userChoice, computerChoice) {
+    let rock = 'rock';
+    let paper = 'paper';
+    let scissors = 'scissors';
 
-// Complete the code to the function
-function exercise15(myType, oponnentType, attackPower, oponnentDefense) {
-    // damage = 50 * (attackPower / oponnentDefense) * effectiveness
-    // let damage = 0;
-    // damage = 50 * (attackPower / oponnentDefense) * effectiveness;
+    // Return these variables
+    let userWins = 'User wins!';
+    let computerWins = 'Computer wins!';
+    let sameChoice = 'Play again!';
+
+    // Same choice
+    if (userChoice === rock && computerChoice === rock) {
+        return sameChoice;
+    } else if (userChoice === paper && computerChoice === paper) {
+        return sameChoice;
+    } else if (userChoice === scissors && computerChoice === scissors) {
+        return sameChoice;
+    }
+
+    // 1. rock wins against scissors
+    // 2. scissors win against paper
+    // 3. paper wins against rock
+    if (userChoice === rock && computerChoice === scissors) {
+        return userWins;
+    } else if (userChoice === scissors && computerChoice === rock) {
+        return computerWins;
+    } else if (userChoice === scissors && computerChoice === paper) {
+        return userWins;
+    } else if (userChoice === paper && computerChoice === scissors) {
+        return computerWins;
+    } else if (userChoice === paper && computerChoice === rock) {
+        return userWins;
+    } else if (userChoice === rock && computerChoice === paper) {
+        return computerWins;
+    }
 }
 
-module.exports = exercise15;
+module.exports = rockPaperScissors;
