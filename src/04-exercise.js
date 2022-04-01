@@ -1,10 +1,11 @@
 /**
  * Complete the function bellow to:
  *
- * 1. return the result of calling the getSum function
+ * 1. Return the result of calling the getSum function
  */
 
 // Complete the code to this function
+
 function exercise04() {}
 
 // Don’t change the code bellow this line

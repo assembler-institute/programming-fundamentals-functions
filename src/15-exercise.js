@@ -5,6 +5,7 @@
  */
 
 // Complete the code to the function
+
 function exercise15() {
     let nums = [20, -10, 30, -5, -15, 50, -10];
 }

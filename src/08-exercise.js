@@ -1,15 +1,15 @@
 /**
  * Complete the function bellow to:
  *
- * 1. receive a parameter named 'callback' which is a function
- * 2. execute a 'forEach' loop on the nums array
- * 3. call the 'callback' parameter inside the 'forEach' loop
- *    and passes the current item in the nums array
- *    as a parameter to the 'callback' function.
+ * 1. Receive a parameter named 'callback', which is a function
+ * 2. Execute a 'forEach' loop on the nums array
+ * 3. Call the 'callback' function parameter inside the 'forEach' loop,
+ *    and pass the current item in the nums array as a parameter.
  *
  * NOTE:
- * You will need to add the parameter to the exercise08() function
+ * You will need to add the 'callback' parameter to the exercise08() function
  */
+
 function exercise08() {
     let nums = [1, 2, 3, 4, 5];
 

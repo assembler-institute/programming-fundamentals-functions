@@ -10,8 +10,10 @@
  */
 
 // Complete the code to the function
+
 function exercise17(number) {
     // Write the solution bellow this line
+
 }
 
 module.exports = exercise17;

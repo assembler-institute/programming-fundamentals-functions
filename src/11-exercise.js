@@ -8,6 +8,7 @@
  */
 
 // Complete the code to the function
+
 function exercise11() {
     let nums = [1, 2, 3, 6, 7, 11, 2, 12];
 }

@@ -18,13 +18,14 @@ var globalVar = 'hello-world';
 
 function exercise10Global() {
     // Write the first console.log bellow this line
+
 }
 
 function exercise10Inner() {
     // Inner Scope
     var globalVar = 'hola-mundo';
-
     // Write the second console.log bellow this line
+    
 }
 
 module.exports = {
