@@ -1,8 +1,8 @@
 /**
  * Complete the function bellow to:
  *
- * 1. receive 3 number parameters
- * 2. return their sum
+ * 1. Receive 3 number parameters
+ * 2. Return their sum
  *
  * NOTE: You will have to add the parameters to the function
  */

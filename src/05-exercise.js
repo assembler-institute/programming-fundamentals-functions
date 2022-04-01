@@ -1,7 +1,7 @@
 /**
  * Complete the function bellow to return the result of:
  *
- * calling the getSum() function
+ * Calling the getSum() function
  * added to the result of
  * calling the getMul() function
  */

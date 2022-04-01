@@ -5,7 +5,7 @@
  *
  * Create a recursive function that calculates the Fibonacci Sequence.
  * The parameters of this fuction are restricted to be the number of steps wanted, the last calculated value and the previous one.
- * The function must return the value of of the sequence after N number of loops.
+ * The function must return the value of the sequence after N number of loops.
  *
  * Fibonnaci Sequence:
  * Initial state: 1, 1

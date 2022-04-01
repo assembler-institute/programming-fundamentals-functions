@@ -10,6 +10,7 @@
  */
 
 // Complete the code to the function
+
 function exercise17(number) {
     if (number === 20) {
         return number;

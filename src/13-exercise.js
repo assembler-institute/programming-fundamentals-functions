@@ -5,6 +5,7 @@
  */
 
 // Complete the code to the function
+
 function exercise13() {
     let nums = [
         [0, 1, 0, 1],

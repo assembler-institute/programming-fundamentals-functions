@@ -1,9 +1,9 @@
 /**
- * Complete the function bellow to:
+ * Complete the function bellow so that:
  *
- * 1. receive an array of numbers by calling the getNums() function
- * 2. multiply all the items in the array by 2
- * 3. return the array.
+ * 1. It receives an array of numbers by calling the getNums() function
+ * 2. Multiplies all the items in the array by 2
+ * 3. Return the array
  */
 
 // Complete the code to this function

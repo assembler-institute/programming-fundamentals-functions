@@ -24,7 +24,6 @@ function exercise10Global() {
 function exercise10Inner() {
     // Inner Scope
     var globalVar = 'hola-mundo';
-
     // Write the second console.log bellow this line
     console.log(globalVar);
 }

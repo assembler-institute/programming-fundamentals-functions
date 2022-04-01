@@ -1,9 +1,9 @@
 /**
- * Complete the function bellow to:
+ * Complete the function bellow so that:
  *
- * 1. receive an array of numbers as a parameter
- * 2. multiply each items in the array by 2
- * 3. return the array.
+ * 1. It receives an array of numbers as a parameter
+ * 2. Multiplies each item in the array by 2
+ * 3. Return the array.
  *
  * NOTE: You will have to add the parameters to the function
  */

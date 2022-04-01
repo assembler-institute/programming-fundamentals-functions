@@ -1,10 +1,10 @@
 /**
  * Complete the function bellow to:
  *
- * 1. receive 2 number parameters named 'a' and 'b'
- * 2. return 'error' when the 'a' and 'b' parameters are undefined
- * 3. return 'missing b parameter' when 'b' is undefined but not 'a'
- * 4. return 'a' + 'b' when 'a' and 'b' are not undefined
+ * 1. Receive 2 number parameters named 'a' and 'b'
+ * 2. Return 'error' when the 'a' and 'b' parameters are both undefined
+ * 3. Return 'missing b parameter' when 'b' is undefined but not 'a'
+ * 4. Return 'a' + 'b' when 'a' and 'b' are both not undefined
  */
 
 // Complete the code to the function
